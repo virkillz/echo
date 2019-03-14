@@ -1,5 +1,11 @@
 # Echo
 
+
+![Echo](https://imgur.com/a/P5zye0J)
+
+The purpose of this project is to convert HTTP Post into broadcast Websocket.
+
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
