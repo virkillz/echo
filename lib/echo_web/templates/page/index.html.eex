@@ -2,16 +2,10 @@
   <a href="http://virkill.com"><img src="https://avatar-api.org/avatar.svg?color=random&set=set3" alt="Echo" /></a>
   <h1>Echo</h1>
   <div style="font-size: 0.7em; margin-bottom: 20px;">
-  <p >This is an experimental app to be a realtime websocket echo server. What it does:</p><br>
-  <ul style="text-align: left;">
-    <li>Listen to new connection and broadcast total number of current connection to all client.</li>
-    <li>Store max number of client in the current session in the client side.</li>
-    <li>Listen to HTTP GET request and broadcast into all subscriber.</li>
-  </ul>
-   It translate POST into Websocket Broadcast. Connect to ws://<%= @host %>/socket/websocket
+  <p >Websocket load testing target on Elixir. It broadcast the total of all connected client eachtime new client join the topic. </p><br>
   </div>
    <p>Currently connect to <span id="count"><%= @count %></span> simultaneous clients</p>
-   <p> Maximum in this session <span id="max"><%= @max %></span> simultaneous clients</p>
+   <p> Maximum in this session <span style="font-size: 1.3em;" id="max"><%= @max %></span> simultaneous clients</p>
 </section>
 
 <section>
